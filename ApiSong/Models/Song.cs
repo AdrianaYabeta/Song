@@ -23,7 +23,7 @@ namespace ApiSong.Models
         public string Letra { get; set; }
         [Url]
         [StringLength(100, MinimumLength = 2, ErrorMessage = "La longitd del enlace debe tener entre 2 a 100 caracteres")]
-        [Display(Name = "Enlace")]
+        [Display(Name = "Enlaces")]
         public string Enlace { get; set; }
 
     }
